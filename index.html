@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+ 
+    <script src="Pie_library.js"></script>
+    <script src="statistics.js"></script>
+	<script src="https://d3js.org/d3.v4.min.js"></script>
+  </head>
+  <body>
+ <!-- execute javascript when the user select change -->
+<h1>Please select a player</h1>
+
+
+<form  onchange="pie()">
+     
+     <select id="dropdown">
+     <option value="0">Choose here:</option>
+     <option value="Messi">Messi</option>
+     <option value="Ronaldo">Ronaldo</option>
+	 <option value="Benzema">Benzema</option>
+	 <option value="Griezmann">Griezmann</option>
+	 <option value="Iniesta">Iniesta</option>
+	 <option value="Aduriz">Aduriz</option>
+	 <option value="Moreno">Moreno</option>
+	 <option value="Castro">Castro</option>
+	 <option value="Enrich">Enrich</option>
+		
+		 
+     </select>
+    
+  </form>
+  <div style="width:100%">
+    <div id="piechart" style="height: 500px"></div>
+ </div> 
+        
+  </body>
+</html>
+
